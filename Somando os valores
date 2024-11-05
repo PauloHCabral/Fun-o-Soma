@@ -1,0 +1,9 @@
+""" Faça um programa que recebe três valores e apresente a soma dos quadrados dos valores lidos """
+
+def recebe_valores(n1,n2,n3):
+    soma = n1**2 + n2**2 + n3**2 
+    return soma
+
+resultado = recebe_valores(5,7,10)
+print(resultado)
+
